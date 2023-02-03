@@ -1,0 +1,70 @@
+.home-container{
+  background: linear-gradient(to top, #16222a, #3a6073);
+}
+
+.sub-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  font-family: "lato", sans-serif;
+  color: #fff;
+  /* background: linear-gradient(to top, #16222a, #3a6073); */
+}
+
+.list-container {
+  background: rgba(58, 63, 68, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+  width: 450px;
+  display: flex;
+  /* margin: auto; */
+  flex-direction: column;
+}
+
+
+
+
+
+.list-item {
+  padding: 10px;
+}
+
+.list-item2 {
+  padding: 5px;
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+  padding-right: 12px;
+}
+.label-discount {
+  color: yellow;
+}
+.product {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background: white;
+  color: black;
+  font-size: 20px;
+}
+.card-container {
+  width: 25rem;
+}
+
+.card-container {
+  width: 28.2rem;
+}
+.list-group {
+  background: white;
+  color: black;
+}
+.logout{
+  text-align: end;
+  font-weight: bold;
+  color:white;
+}
+.logout input{
+  background: linear-gradient(to top, #16222a, #3a6073);
+  cursor: pointer;
+}
