@@ -42,7 +42,7 @@ function Home() {
         {products.map((e, index) => {
           // console.log(e)
           return (
-            <Card className="card-container">
+            <Card className="card-container " key={e.id} >
               <div className="list-item2">
                 Discount :
                 <label className="label-discount" htmlFor="">
@@ -50,7 +50,7 @@ function Home() {
                 </label>
               </div>
 
-              <ListGroup variant="flush" className="list-group">
+              <ListGroup  variant="flush" className="list-group">
                 <ListGroup.Item className="list-item">{e.title}</ListGroup.Item>
                 <ListGroup.Item className="list-item">
                   ₹ {e.price}
