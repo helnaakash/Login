@@ -43,7 +43,7 @@ input {
 
 .form-field {
   display: flex;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .form input[type="password"],
@@ -112,15 +112,13 @@ input {
   background: linear-gradient(to top, #16222a, #3a6073);
   cursor: pointer;
 }
+
 /* input .input_error,
 select.input_error{
 border-color: #fc8181;
 background-color: red;
 } */
-.form-login input{
-  background-color: red;
-  color:red;
-}
+
 .button-class:disabled {
   opacity: 0.35;
 

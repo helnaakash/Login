@@ -66,7 +66,10 @@ export default function Signup() {
                 value={values.username}
                 onBlur={handleBlur}
               />
-              {errors.email && touched.email && (
+             
+            </div>
+            <div>
+            {errors.email && touched.email && (
                 <span className="input-error"> {errors.username}</span>
               )}
             </div>
@@ -84,7 +87,10 @@ export default function Signup() {
                 className={errors.email && touched.email ? "input-error" : ""}
                 // className= "input_error"
               />
-              {errors.email && touched.email && (
+              
+            </div>
+            <div>
+            {errors.email && touched.email && (
                 <span className="error"> {errors.email}</span>
               )}
             </div>
@@ -103,12 +109,13 @@ export default function Signup() {
                   errors.password && touched.password ? "input-error" : ""
                 }
               />
-              <div>
+             
+            </div>
+            <div>
                 {errors.password && touched.password && (
                   <span className="error"> {errors.password}</span>
                 )}
               </div>
-            </div>
 
             <div className="form-field">
               <input

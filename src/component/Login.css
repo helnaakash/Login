@@ -56,7 +56,7 @@ input {
 
 .form-field {
   display: flex;
-  margin-bottom: 2rem;
+
 }
 
 .form input[type="password"],

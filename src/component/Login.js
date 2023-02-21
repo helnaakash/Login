@@ -38,7 +38,8 @@ function Login() {
             return alert("Invalid user");
           } else if (!newOb2) {
             return alert("Invalid Password");
-          } else {
+          } 
+          else {
             console.log("hi");
           }
         }
