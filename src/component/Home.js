@@ -45,7 +45,7 @@ function Home() {
             <Card className="card-container " key={e.id} >
               <div className="list-item2">
                 Discount :
-                <label className="label-discount" htmlFor="">
+                <label className="label-discount" >
                   {e.discountPercentage}%
                 </label>
               </div>
